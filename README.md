@@ -26,8 +26,8 @@ Source code for the manuscript: Substantial mercury releases and local depositio
  
 ## Scripts
 #### *Note: These scripts process the data summarized above, which was compiled as detailed in the Methods of the manuscript. Users of these scripts will need to update the working directory pathway within scripts.*  
-*1_compile.R*: Load and prepare data on soils (from unburned sites) and vegetation for subsequent analyses.
-*2_statistics.R*: Compute statistics reported in the manuscript.
+*1_compile.R*: Load and prepare data on soils (from unburned sites) and vegetation for subsequent analyses
+*2_statistics.R*: Compute statistics reported in the manuscript
 *3_burn_depth_rf_mdl.R*: Algorithm to predict YK Delta wildfire burn depth from field measurements of burn depth (Moubarak et al. 2022) and various remote sensing metrics of fire severity and terrain qualities.
 *4_soc_rf_mdl.R*: Algorithm to predict YK Delta wildfire carbon stores from field measurements of carbon and various remote sensing metrics of vegetation and terrain characteristics.
 *5_hg_emissions_uncertainty.R*: Estimate uncertainty in wildfire Hg emissions.
