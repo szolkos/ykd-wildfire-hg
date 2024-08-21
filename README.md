@@ -22,21 +22,21 @@ Source code for the manuscript: Substantial mercury releases and local depositio
 ## Data
 ### The following data associated with this manuscript is available in this repository:
 #### Data used in generation of results
-- *.csv*: .  
+- *polaris_data.csv* (called in script '1_compile.R'): Soils data from The Polaris Project (henceforth, 'Polaris') used in this study.  
 
-- *.csv*: .  
+- *thg_ykd_al.csv* (called in script '1_compile.R'): Hg data measured on Polaris soils for this study.  
 
-- *.csv*: .  
+- *ykd_veg_biomass.csv* (called in script '1_compile.R'): Polaris data on vegetation biomass in the YK-Delta (collected during 2017 & 2018 field expeditions).  
 
-- *.csv*: .  
+- *ykd_veg_hgt.csv* (called in script '1_compile.R'): Hg data measured on Polaris vegetation for this study.  
 
-- *.csv*: .  
+- *ykd_hg_ub_site_locs_validated_2023_10_06.csv* (called in script '1_compile.R'): Data on soil characteristics and SOC & Hg content, for use in calculating averages for sites within the same 30 m Landsat pixel.   
 
-- *.csv*: .  
+- *moubarak_ykd_2015_burn_depth_2023_01_24.csv* (called in script '2_statistics.R'): Burn depth data from Moubarak et al. 2023 Biogeosciences.  
 
-- *.csv*: .  
+- *burn_depth_preds_2023_01_20.csv* (called in script '5_burn_depth_rf_mdl.R'): Environmental data derived from satellite remote sensing for predicting burn depth; data extracted using Google Earth Engine code '3_burn_depth_predictors.js'.  
 
-- *.csv*: .  
+- *preds_for_soc_modeling_2023_10_06.csv* (called in script '6_soc_rf_mdl.R'): Environmental data derived from satellite remote sensing for predicting SOC; data extracted using Google Earth Engine code '4_soc_predictors.js'.  
  
 - *.csv*: .  
 
