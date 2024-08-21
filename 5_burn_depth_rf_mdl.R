@@ -1,5 +1,5 @@
 #================================================================================================================================#
-# Filename: 3_burn_depth_rf_mdl.R ####
+# Filename: 5_burn_depth_rf_mdl.R ####
 # Author: Scott Zolkos (sgzolkos@gmail.com) adapted code written by Stefano Potter (Potter et al. 2022)
 # Created: 2023-01-06
 # Revised: 2024-08-20
