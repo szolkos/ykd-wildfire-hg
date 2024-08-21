@@ -30,14 +30,14 @@ Source code for the manuscript: Substantial mercury releases and local depositio
 
 - *2_statistics.R*: Compute statistics reported in the manuscript.  
 
-- *3_burn_depth_rf_mdl.R*: Algorithm to predict YK Delta wildfire burn depth from field measurements of burn depth (Moubarak et al. 2022) and various remote sensing metrics of fire severity and terrain qualities.  
+- *3_burn_depth_predictors.js*: Google Earth Engine script for deriving environmental conditions from satellite remote sensing data and extracting the environmental data for use in development of predictive models of burn depth.  
 
-- *4_soc_rf_mdl.R*: Algorithm to predict YK Delta wildfire carbon stores from field measurements of carbon and various remote sensing metrics of vegetation and terrain characteristics.  
+- *4_soc_predictors.js*: Google Earth Engine script for deriving environmental conditions from satellite remote sensing data and extracting the environmental data for use in development of predictive models of soil organic carbon stores.
 
-- *5_hg_emissions_uncertainty.R*: Estimate uncertainty in wildfire Hg emissions.  
+- *5_burn_depth_rf_mdl.R*: Algorithm to predict YK Delta wildfire burn depth from field measurements of burn depth (Moubarak et al. 2022) and various remote sensing metrics of fire severity and terrain qualities.  
 
-- *6_peat_burned_area.R*: Estimate northern peatland wildfire Hg emissions from 2002-2022.  
+- *6_soc_rf_mdl.R*: Algorithm to predict YK Delta wildfire carbon stores from field measurements of carbon and various remote sensing metrics of vegetation and terrain characteristics.  
 
-- *burn_depth_predictors.js*: Google Earth Engine script for deriving environmental conditions from satellite remote sensing data and extracting the environmental data for use in development of predictive models of burn depth.  
+- *7_hg_emissions_uncertainty.R*: Estimate uncertainty in wildfire Hg emissions.  
 
-- *soc_predictors.js*: Google Earth Engine script for deriving environmental conditions from satellite remote sensing data and extracting the environmental data for use in development of predictive models of soil organic carbon stores.
+- *8_peat_burned_area.R*: Estimate northern peatland wildfire Hg emissions from 2002-2022.
