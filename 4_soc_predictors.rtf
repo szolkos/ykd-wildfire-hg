@@ -146,29 +146,6 @@ var ndwi = l8.normalizedDifference(['SR_B3', 'SR_B5']).rename('NDWI');
 
 // Interpretation of RGB visualization of Brightness, Greenness, and Wetness:
 // https://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/tasseled-cap-transformation.htm
-
-/**
- * In remote sensing analysis it is common to ratio and plot different 
- * combinations of multispectral bands to examine relationships between 
- * the bands. The Tasseled Cap transformation is a special case of principal 
- * components analysis which transforms the image data to a new coordinate 
- * system with a new set of orthogonal axes. The primary axis, called brightness,
- * is statistically derived and is calculated as the weighted sum of reflectances
- * of all spectral bands and accounts for the most variability in the image. 
- * Brightness is associated with bare or partially covered soil, man-made, and
- * natural features such as concrete, asphalt, gravel, rock outcrops, and other 
- * bare areas. Orthogonal to the first component, the second component greenness 
- * is associated with green vegetation, while the third component wetness is 
- * orthogonal to the first two components and is associated with soil moisture,
- * water, and other moist features. For Landsat MSS, the third component corresponds
- * to yellow stuff rather than wetness, and represents mature crops ready for harvest,
- * such as different grains, as well as vegetation senescence. The other additional 
- * components contain image noise and atmospheric influences, such as clouds, haze, 
- * sun angle differences, and so on, that have been removed from the first three more
- * significant components. The first three components of the Tasseled Cap transformed
- * imagery contain about 97 percent of the meaningful information available in the image.
- */
-
 // FUNCTIONS
 /**
  * Description of function
