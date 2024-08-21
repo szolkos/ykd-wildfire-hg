@@ -34,13 +34,13 @@ Source code for the manuscript: Substantial mercury releases and local depositio
 
 - *moubarak_ykd_2015_burn_depth_2023_01_24.csv* (called in script '2_statistics.R'): Burn depth data from Moubarak et al. 2023 Biogeosciences.  
 
-- *burn_depth_preds_2023_01_20.csv* (called in script '5_burn_depth_rf_mdl.R'): Environmental data derived from satellite remote sensing for predicting burn depth; data extracted using Google Earth Engine code '3_burn_depth_predictors.js'.  
+- *burn_depth_preds_2023_01_20.csv* (called in script '5_burn_depth_rf_mdl.R'): Environmental data derived from satellite remote sensing for predicting burn depth; data extracted using Google Earth Engine script '3_burn_depth_predictors.js'.  
 
-- *preds_for_soc_modeling_2023_10_06.csv* (called in script '6_soc_rf_mdl.R'): Environmental data derived from satellite remote sensing for predicting SOC; data extracted using Google Earth Engine code '4_soc_predictors.js'.  
- 
-- *.csv*: .  
+- *burn_depth_preds_gee_2023_01_22.csv* (called in script '5_burn_depth_rf_mdl.R'): Large (80 MB) dataset of per-pixel (n > 400,000) burn depth predictions and values of satellite remote sensing indices used to burn depth. Request from lead author.  
 
-- *.csv*: .  
+- *preds_for_soc_modeling_2023_10_06.csv* (called in script '6_soc_rf_mdl.R'): Environmental data derived from satellite remote sensing for predicting SOC; data extracted using Google Earth Engine script '4_soc_predictors.js'.  
+
+- *soc_preds_from_gee_2023_10_06.csv* (called in script '6_soc_rf_mdl.R'): Large (137 MB) dataset of per-pixel (n > 400,000) SOC predictions and values of satellite remote sensing indices used to predict SOC. Request from lead author.  
 
 ## Scripts
 #### *Note: These scripts process the data summarized above, which was compiled as detailed in the Methods of the manuscript. Users of these scripts will need to update the working directory pathway within scripts.*  
