@@ -1,5 +1,5 @@
 #================================================================================================================================#
-# Filename: 4_soc_rf_mdl.R ####
+# Filename: 6_soc_rf_mdl.R ####
 # Author: Scott Zolkos (sgzolkos@gmail.com) adapted code written by Stefano Potter
 # Created: 2023-10-06
 # Revised: 2024-08-20
