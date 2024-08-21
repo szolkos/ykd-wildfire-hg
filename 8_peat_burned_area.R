@@ -1,5 +1,5 @@
 #===========================================================================================================#
-# Filename: 6_peat_burned_area.R ####
+# Filename: 8_peat_burned_area.R ####
 # Author: Scott Zolkos (sgzolkos@gmail.com)
 # Created: 2024-06-13
 # Revised: 2024-08-20
