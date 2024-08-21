@@ -22,8 +22,26 @@ Source code for the manuscript: Substantial mercury releases and local depositio
 ## Data
 ### The following data associated with this manuscript is available in this repository:
 #### Data used in generation of results
-- *concentrations.csv*: Concentrations of total suspended solids (TSS; mg/L) and mercury in TSS (i.e., particulate mercury, PHg; µg/g). Used in subsequent analyses.  
+- *.csv*: .  
+
+- *.csv*: .  
+
+- *.csv*: .  
+
+- *.csv*: .  
+
+- *.csv*: .  
+
+- *.csv*: .  
+
+- *.csv*: .  
+
+- *.csv*: .  
  
+- *.csv*: .  
+
+- *.csv*: .  
+
 ## Scripts
 #### *Note: These scripts process the data summarized above, which was compiled as detailed in the Methods of the manuscript. Users of these scripts will need to update the working directory pathway within scripts.*  
 - *1_compile.R*: Load and prepare data on soils (from unburned sites) and vegetation for subsequent analyses.  
