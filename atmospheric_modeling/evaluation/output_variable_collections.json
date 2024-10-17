@@ -1,0 +1,208 @@
+{
+    "Total_Hg_Dry_Dep": {
+        "variables": [
+            "DryDep_Hg2ORGP",
+            "DryDep_Hg2ClP",
+            "DryDep_HgCl2",
+            "DryDep_HgOHOH",
+            "DryDep_HgOHBrO",
+            "DryDep_HgOHClO",
+            "DryDep_HgOHHO2",
+            "DryDep_HgOHNO2",
+            "DryDep_HgClOH",
+            "DryDep_HgClBr",
+            "DryDep_HgClBrO",
+            "DryDep_HgClClO",
+            "DryDep_HgClHO2",
+            "DryDep_HgClNO2",
+            "DryDep_HgBr2",
+            "DryDep_HgBrOH",
+            "DryDep_HgBrClO",
+            "DryDep_HgBrBrO",
+            "DryDep_HgBrHO2",
+            "DryDep_HgBrNO2",
+            "DryDep_Hg0"
+        ],
+        "expected_units": "molec cm-2 s-1",
+        "output_attributes": {
+            "long_name": "mercury dry deposition",
+            "species": "all Hg species",
+            "deposition type": "dry",
+            "units": "\u03bcg m-2 yr-1"
+        }
+    },
+    "Wet_Dep_Hg2": {
+        "variables": [
+            "WetLossConv_HgCl2",
+            "WetLossConv_HgOHOH",
+            "WetLossConv_HgOHBrO",
+            "WetLossConv_HgOHClO",
+            "WetLossConv_HgOHHO2",
+            "WetLossConv_HgOHNO2",
+            "WetLossConv_HgClOH",
+            "WetLossConv_HgClBr",
+            "WetLossConv_HgClBrO",
+            "WetLossConv_HgClClO",
+            "WetLossConv_HgClHO2",
+            "WetLossConv_HgClNO2",
+            "WetLossConv_HgBr2",
+            "WetLossConv_HgBrOH",
+            "WetLossConv_HgBrClO",
+            "WetLossConv_HgBrBrO",
+            "WetLossConv_HgBrHO2",
+            "WetLossConv_HgBrNO2",
+            "WetLossLS_HgCl2",
+            "WetLossLS_HgOHOH",
+            "WetLossLS_HgOHBrO",
+            "WetLossLS_HgOHClO",
+            "WetLossLS_HgOHHO2",
+            "WetLossLS_HgOHNO2",
+            "WetLossLS_HgClOH",
+            "WetLossLS_HgClBr",
+            "WetLossLS_HgClBrO",
+            "WetLossLS_HgClClO",
+            "WetLossLS_HgClHO2",
+            "WetLossLS_HgClNO2",
+            "WetLossLS_HgBr2",
+            "WetLossLS_HgBrOH",
+            "WetLossLS_HgBrClO",
+            "WetLossLS_HgBrBrO",
+            "WetLossLS_HgBrHO2",
+            "WetLossLS_HgBrNO2"
+        ],
+        "expected_units": "kg s-1",
+        "output_attributes": {
+            "long_name": "wet deposition of gaseous oxidized mercury",
+            "species": "gaseous oxidized Hg",
+            "deposition type": "wet",
+            "units": "\u03bcg m-2 yr-1"
+        }
+    },
+    "Wet_Dep_HgP": {
+        "variables": [
+            "WetLossConv_Hg2ORGP",
+            "WetLossConv_Hg2ClP",
+            "WetLossLS_Hg2ORGP",
+            "WetLossLS_Hg2ClP"
+        ],
+        "expected_units": "kg s-1",
+        "output_attributes": {
+            "long_name": "wet deposition of particulate mercury",
+            "species": "particulate Hg",
+            "deposition type": "wet",
+            "units": "\u03bcg m-2 yr-1"
+        }
+    },
+    "Total_Hg_Wet_Dep": {
+        "variables": [
+            "WetLossConv_HgCl2",
+            "WetLossConv_HgOHOH",
+            "WetLossConv_HgOHBrO",
+            "WetLossConv_HgOHClO",
+            "WetLossConv_HgOHHO2",
+            "WetLossConv_HgOHNO2",
+            "WetLossConv_HgClOH",
+            "WetLossConv_HgClBr",
+            "WetLossConv_HgClBrO",
+            "WetLossConv_HgClClO",
+            "WetLossConv_HgClHO2",
+            "WetLossConv_HgClNO2",
+            "WetLossConv_HgBr2",
+            "WetLossConv_HgBrOH",
+            "WetLossConv_HgBrClO",
+            "WetLossConv_HgBrBrO",
+            "WetLossConv_HgBrHO2",
+            "WetLossConv_HgBrNO2",
+            "WetLossLS_HgCl2",
+            "WetLossLS_HgOHOH",
+            "WetLossLS_HgOHBrO",
+            "WetLossLS_HgOHClO",
+            "WetLossLS_HgOHHO2",
+            "WetLossLS_HgOHNO2",
+            "WetLossLS_HgClOH",
+            "WetLossLS_HgClBr",
+            "WetLossLS_HgClBrO",
+            "WetLossLS_HgClClO",
+            "WetLossLS_HgClHO2",
+            "WetLossLS_HgClNO2",
+            "WetLossLS_HgBr2",
+            "WetLossLS_HgBrOH",
+            "WetLossLS_HgBrClO",
+            "WetLossLS_HgBrBrO",
+            "WetLossLS_HgBrHO2",
+            "WetLossLS_HgBrNO2",
+            "WetLossConv_Hg2ORGP",
+            "WetLossConv_Hg2ClP",
+            "WetLossLS_Hg2ORGP",
+            "WetLossLS_Hg2ClP"
+        ],
+        "expected_units": "kg s-1",
+        "output_attributes": {
+            "long_name": "total wet deposition of mercury",
+            "species": "all Hg species",
+            "deposition type": "wet",
+            "units": "\u03bcg m-2 yr-1"
+        }
+    },
+    "SpeciesConc_Hg0": {
+        "variables": [
+            "SpeciesConcVV_Hg0"
+        ],
+        "expected_units": "mol mol-1 dry",
+        "output_attributes": {
+            "long_name": "gaseous elemental mercury",
+            "species": "Hg0",
+            "units": "ng m-3",
+            "notes": "concentration at standard temperature and pressure (0 C, 1 atm)"
+        }
+    },
+    "SpeciesConc_Hg2": {
+        "variables": [
+            "SpeciesConcVV_HgClO",
+            "SpeciesConcVV_HgBrO",
+            "SpeciesConcVV_HgOHO",
+            "SpeciesConcVV_HgCl2",
+            "SpeciesConcVV_HgOHOH",
+            "SpeciesConcVV_HgOHBrO",
+            "SpeciesConcVV_HgOHClO",
+            "SpeciesConcVV_HgOHHO2",
+            "SpeciesConcVV_HgOHNO2",
+            "SpeciesConcVV_HgOH",
+            "SpeciesConcVV_HgClOH",
+            "SpeciesConcVV_HgClBr",
+            "SpeciesConcVV_HgClBrO",
+            "SpeciesConcVV_HgClClO",
+            "SpeciesConcVV_HgClHO2",
+            "SpeciesConcVV_HgClNO2",
+            "SpeciesConcVV_HgCl",
+            "SpeciesConcVV_HgBr2",
+            "SpeciesConcVV_HgBrOH",
+            "SpeciesConcVV_HgBrClO",
+            "SpeciesConcVV_HgBrBrO",
+            "SpeciesConcVV_HgBrHO2",
+            "SpeciesConcVV_HgBrNO2",
+            "SpeciesConcVV_HgBr"
+        ],
+        "expected_units": "mol mol-1 dry",
+        "output_attributes": {
+            "long_name": "gaseous oxidized mercury",
+            "species": "Hg2",
+            "units": "ng m-3",
+            "notes": "concentration at standard temperature and pressure (0 C, 1 atm)"
+        }
+    },
+    "SpeciesConc_HgP": {
+        "variables": [
+            "SpeciesConcVV_Hg2STRP",
+            "SpeciesConcVV_Hg2ORGP",
+            "SpeciesConcVV_Hg2ClP"
+        ],
+        "expected_units": "mol mol-1 dry",
+        "output_attributes": {
+            "long_name": "particulate mercury",
+            "species": "HgP",
+            "units": "ng m-3",
+            "notes": "concentration at standard temperature and pressure (0 C, 1 atm)"
+        }
+    }
+}
