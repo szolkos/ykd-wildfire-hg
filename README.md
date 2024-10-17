@@ -1,6 +1,6 @@
 # Yukon-Kuskokwim Delta (YKD) wildfire mercury (Hg) emissions
 ## Introduction
-Source code for the manuscript: Substantial mercury releases and local deposition from permafrost peatland wildfires in southwestern Alaska. Supporting data is available from [Zolkos et al. 2024](https://doi.org/10.7910/DVN/ZA5JBZ).
+Source code for the manuscript: Substantial mercury releases and local deposition from permafrost peatland wildfires in southwestern Alaska. Supporting data are available from [Zolkos et al. 2024](https://doi.org/10.7910/DVN/ZA5JBZ).
 
 ## Authors
 - [Scott Zolkos](https://www.researchgate.net/profile/Scott-Zolkos)
